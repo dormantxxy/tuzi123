@@ -1,0 +1,507 @@
+{
+  "ok": true,
+  "code": "EXTENSIONS",
+  "data": {
+    "extensions": [
+      {
+        "extension_id": "mobicode.codex.runtime",
+        "name": "Codex",
+        "version": "2.2.0",
+        "publisher": "MobiCode / OpenAI",
+        "description": "为 AI 提供项目文件检索、代码修改、命令执行、运行诊断与 APK 构建能力。",
+        "category": "AI",
+        "download_size": 85341297,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-Codex-Runtime-v2.2.0.mcext",
+        "archive_sha256": "2c8ed841165a88d225a499c4dd8c71281d4192aadf12de95043bc4bc518ff086",
+        "minimum_app_version": 19,
+        "repository_url": "https://github.com/openai/codex",
+        "license_name": "Apache-2.0 and bundled third-party notices",
+        "updated_at": "2026-08-28 07:23:29",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "2.2.0",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-Codex-Runtime-v2.2.0.mcext",
+            "archive_sha256": "2c8ed841165a88d225a499c4dd8c71281d4192aadf12de95043bc4bc518ff086",
+            "download_size": 85341297
+          },
+          {
+            "version": "2.1.0",
+            "download_url": "https://github.com/Putongren0/MobiCode-Extensions/releases/download/v2026.08.28/MobiCode-Codex-Runtime-v2.1.0.mcext",
+            "archive_sha256": "7ae58071e252c826c9da42856a28589b0490c9797fd1284ce57120bfe78c7790",
+            "download_size": 100331654
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.tool.openssh",
+        "name": "OpenSSH",
+        "version": "10.5p1",
+        "publisher": "MobiCode / OpenSSH",
+        "description": "提供 SSH、SCP、SFTP 与密钥管理，用于远程主机连接和文件传输。",
+        "category": "ENVIRONMENT",
+        "download_size": 23536610,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-openssh-v10.5p1.mcext",
+        "archive_sha256": "4df052535d2bad583f03c353c256c35bf4461ce546e5bcf0b2955c494a8cc174",
+        "minimum_app_version": 28,
+        "repository_url": "https://www.openssh.com/",
+        "license_name": "BSD-style licenses",
+        "updated_at": "2026-08-28 07:23:29",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "10.5p1",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-openssh-v10.5p1.mcext",
+            "archive_sha256": "4df052535d2bad583f03c353c256c35bf4461ce546e5bcf0b2955c494a8cc174",
+            "download_size": 23536610
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.runtime.flutter",
+        "name": "Flutter",
+        "version": "3.47.2",
+        "publisher": "MobiCode / Flutter",
+        "description": "提供 Android ARM64 Flutter SDK、Dart 工具链与 APK 构建支持。",
+        "category": "LANGUAGE",
+        "download_size": 1168643765,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-Flutter-v3.47.2.mcext",
+        "archive_sha256": "81698ff3aea7bb4dfc780691d2359053ed8f014b1575e3adecce27e1a1c82e3a",
+        "minimum_app_version": 200,
+        "repository_url": "https://github.com/flutter/flutter",
+        "license_name": "Flutter BSD-3-Clause; Termux Flutter WSL GPL-3.0",
+        "updated_at": "2026-09-17 21:02:16",
+        "languages": [
+          "FLUTTER_APP"
+        ],
+        "project_templates": [
+          "空白项目"
+        ],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "3.47.2",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-Flutter-v3.47.2.mcext",
+            "archive_sha256": "81698ff3aea7bb4dfc780691d2359053ed8f014b1575e3adecce27e1a1c82e3a",
+            "download_size": 1168643765
+          },
+          {
+            "version": "3.0.0",
+            "download_url": "https://github.com/Putongren0/MobiCode-Extensions/releases/download/v2026.09.06/MobiCode-Flutter-v3.0.0.mcext",
+            "archive_sha256": "59db4d2421a9ebd900074b6f2ab5ef95d1ae19dc0fef35e7fd7472530aea11da",
+            "download_size": 5899
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.runtime.golang",
+        "name": "Go",
+        "version": "1.26.5",
+        "publisher": "MobiCode / The Go Authors",
+        "description": "提供 Go 编译器、标准库和模块管理工具，支持本机构建 Go 项目。",
+        "category": "LANGUAGE",
+        "download_size": 309611911,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-golang-v1.26.5.mcext",
+        "archive_sha256": "c695085b083faa95f9b440c5c2426e598c051d113ccd39b9b4f6b0efb2cc495f",
+        "minimum_app_version": 28,
+        "repository_url": "https://go.dev/",
+        "license_name": "BSD-3-Clause and bundled third-party notices",
+        "updated_at": "2026-08-28 07:23:29",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "1.26.5",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-golang-v1.26.5.mcext",
+            "archive_sha256": "c695085b083faa95f9b440c5c2426e598c051d113ccd39b9b4f6b0efb2cc495f",
+            "download_size": 309611911
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.lua.android",
+        "name": "Lua Android",
+        "version": "1.4.2",
+        "publisher": "MobiCode",
+        "description": "提供 Lua 5.3、Android API、界面预览与 APK 构建能力，支持 armeabi-v7a 和 arm64-v8a。",
+        "category": "LANGUAGE",
+        "download_size": 5664397,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-Lua-Android-v1.4.2.mcext",
+        "archive_sha256": "c370d189ba2ca5243687f19c6f0ae366e5ef13fb5e3c797a74cb6cbe2931f79f",
+        "minimum_app_version": 19,
+        "repository_url": "",
+        "license_name": "MobiCode Runtime and bundled third-party notices",
+        "updated_at": "2026-09-17 21:02:16",
+        "languages": [
+          "LUA_ANDROID"
+        ],
+        "project_templates": [
+          "空白项目"
+        ],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "1.4.2",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-Lua-Android-v1.4.2.mcext",
+            "archive_sha256": "c370d189ba2ca5243687f19c6f0ae366e5ef13fb5e3c797a74cb6cbe2931f79f",
+            "download_size": 5664397
+          },
+          {
+            "version": "1.4.1",
+            "download_url": "https://github.com/Putongren0/MobiCode-Extensions/releases/download/v2026.08.28/MobiCode-Lua-Android-v1.4.1.mcext",
+            "archive_sha256": "62a402ff023b98e664a8c5fc64a69eff903d2224ab5aed7f53cb477cfe0fc056",
+            "download_size": 5639408
+          },
+          {
+            "version": "1.4.0",
+            "download_url": "https://github.com/Putongren0/MobiCode-Extensions/releases/download/v2026.08.28/MobiCode-Lua-Android-v1.4.0.mcext",
+            "archive_sha256": "a89c3565946839ced49bfb8eeff846e5af822a2b714136707431cf3a8ab084f9",
+            "download_size": 5641737
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.runtime.nodejs",
+        "name": "Node.js",
+        "version": "26.4.0.1",
+        "publisher": "MobiCode / OpenJS Foundation",
+        "description": "提供 Node.js 运行时与 npm CLI，用于 JavaScript 项目、前端构建和开发工具。",
+        "category": "LANGUAGE",
+        "download_size": 74951163,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-nodejs-v26.4.0.1.mcext",
+        "archive_sha256": "83da12790ca03ee04ba95c4f8e434c2eda828402ace1546483219b44bfe5b66a",
+        "minimum_app_version": 28,
+        "repository_url": "https://nodejs.org/",
+        "license_name": "MIT and bundled third-party notices",
+        "updated_at": "2026-08-28 07:23:29",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "26.4.0.1",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-nodejs-v26.4.0.1.mcext",
+            "archive_sha256": "83da12790ca03ee04ba95c4f8e434c2eda828402ace1546483219b44bfe5b66a",
+            "download_size": 74951163
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.runtime.openjdk",
+        "name": "OpenJDK",
+        "version": "21.0.12",
+        "publisher": "MobiCode / OpenJDK",
+        "description": "提供完整 Java 21 JDK，用于 javac、Gradle 和通用 Java 项目构建。",
+        "category": "LANGUAGE",
+        "download_size": 152029404,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-openjdk-v21.0.12.mcext",
+        "archive_sha256": "bac595784ce7e4d3badbe95be2588954f2955f25441bcdc45c15c1bd6ebcefc0",
+        "minimum_app_version": 28,
+        "repository_url": "https://openjdk.org/projects/jdk/21/",
+        "license_name": "GPL-2.0-only WITH Classpath-exception-2.0",
+        "updated_at": "2026-08-28 07:23:29",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "21.0.12",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-openjdk-v21.0.12.mcext",
+            "archive_sha256": "bac595784ce7e4d3badbe95be2588954f2955f25441bcdc45c15c1bd6ebcefc0",
+            "download_size": 152029404
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.runtime.php.web",
+        "name": "PHP",
+        "version": "8.5.1.1",
+        "publisher": "MobiCode / PHP Foundation",
+        "description": "提供 PHP 8.5 CLI、Composer、本地开发服务器，并复用 Node.js/npm 完成 HTML、CSS 和 JavaScript 前端开发。",
+        "category": "LANGUAGE",
+        "download_size": 94999784,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-php-web-v8.5.1.1.mcext",
+        "archive_sha256": "ae215e21949ffc83cf41651ae9c1cb6bea7d6022feacc504955373f865d20cfb",
+        "minimum_app_version": 28,
+        "repository_url": "https://www.php.net/",
+        "license_name": "PHP-3.01 and bundled third-party notices",
+        "updated_at": "2026-08-28 08:08:29",
+        "languages": [
+          "PHP_WEB"
+        ],
+        "project_templates": [
+          "空白项目"
+        ],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "8.5.1.1",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-php-web-v8.5.1.1.mcext",
+            "archive_sha256": "ae215e21949ffc83cf41651ae9c1cb6bea7d6022feacc504955373f865d20cfb",
+            "download_size": 94999784
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.runtime.python",
+        "name": "Python",
+        "version": "3.14.6",
+        "publisher": "MobiCode / Python Software Foundation",
+        "description": "提供 CPython 解释器与 pip 包管理器，用于脚本运行、自动化和项目工具。",
+        "category": "LANGUAGE",
+        "download_size": 29241894,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-python-v3.14.6.mcext",
+        "archive_sha256": "5d83a1ee3a7c0a985b493c96f00e6db5cbb2ac11c8131dec81068409cccb66a7",
+        "minimum_app_version": 28,
+        "repository_url": "https://www.python.org/",
+        "license_name": "PSF-2.0",
+        "updated_at": "2026-08-28 07:23:29",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "3.14.6",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-python-v3.14.6.mcext",
+            "archive_sha256": "5d83a1ee3a7c0a985b493c96f00e6db5cbb2ac11c8131dec81068409cccb66a7",
+            "download_size": 29241894
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.runtime.rust",
+        "name": "Rust",
+        "version": "1.97.1.1",
+        "publisher": "MobiCode / Rust Project",
+        "description": "提供 Rust 编译器、Cargo 包管理器、标准库与 Android sysroot，支持本机构建 Rust 项目。",
+        "category": "LANGUAGE",
+        "download_size": 502335164,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-rust-v1.97.1.1.mcext",
+        "archive_sha256": "6e0190b050f2a06bf6b9de6d9acc3cb5ff34a2b1953b4a3a5da1c720345a86f3",
+        "minimum_app_version": 28,
+        "repository_url": "https://www.rust-lang.org/",
+        "license_name": "Apache-2.0 OR MIT and bundled third-party notices",
+        "updated_at": "2026-08-28 07:23:29",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "1.97.1.1",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-rust-v1.97.1.1.mcext",
+            "archive_sha256": "6e0190b050f2a06bf6b9de6d9acc3cb5ff34a2b1953b4a3a5da1c720345a86f3",
+            "download_size": 502335164
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.tool.git",
+        "name": "Git",
+        "version": "2.55.0",
+        "publisher": "MobiCode / Git",
+        "description": "提供仓库克隆、提交、分支、差异比较和远程同步等版本控制能力。",
+        "category": "SOURCE_CONTROL",
+        "download_size": 29583929,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-git-v2.55.0.mcext",
+        "archive_sha256": "90e550ce602fbdab7b0e666f719cc009fa216c3f4ee2404ac6e7c39bbef1a266",
+        "minimum_app_version": 28,
+        "repository_url": "https://git-scm.com/",
+        "license_name": "GPL-2.0-only",
+        "updated_at": "2026-08-28 07:23:29",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "2.55.0",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-git-v2.55.0.mcext",
+            "archive_sha256": "90e550ce602fbdab7b0e666f719cc009fa216c3f4ee2404ac6e7c39bbef1a266",
+            "download_size": 29583929
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.android.gradle.runtime",
+        "name": "Android Java",
+        "version": "2.1.2",
+        "publisher": "MobiCode",
+        "description": "集成 OpenJDK 17、Gradle、Android Gradle Plugin、Android SDK 与 Build Tools，用于本机构建 Android APK。",
+        "category": "TOOLCHAIN",
+        "download_size": 416446369,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-Java-Android-v2.1.2.mcext",
+        "archive_sha256": "91ce60976ab8160927ae71ce6dabcce01ba3fca217653a6bc5c486d1c3a02a0a",
+        "minimum_app_version": 32,
+        "repository_url": "",
+        "license_name": "OpenJDK GPL-2.0-with-classpath-exception and bundled licenses",
+        "updated_at": "2026-08-28 07:23:29",
+        "languages": [
+          "JAVA_ANDROID"
+        ],
+        "project_templates": [
+          "Java Android 应用"
+        ],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "2.1.2",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-Java-Android-v2.1.2.mcext",
+            "archive_sha256": "91ce60976ab8160927ae71ce6dabcce01ba3fca217653a6bc5c486d1c3a02a0a",
+            "download_size": 416446369
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.tool.apktool",
+        "name": "Apktool",
+        "version": "3.0.3",
+        "publisher": "MobiCode / iBotPeaches",
+        "description": "提供 APK 资源、AndroidManifest 与 Smali 的解析和重建能力。",
+        "category": "TOOLCHAIN",
+        "download_size": 161082709,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-apktool-v3.0.3.mcext",
+        "archive_sha256": "daad44cf5a5be7bd1a35e4717c9536b2925f738d16ea28e11a3dafd34ca370e6",
+        "minimum_app_version": 28,
+        "repository_url": "https://github.com/iBotPeaches/Apktool",
+        "license_name": "Apache-2.0",
+        "updated_at": "2026-08-28 07:23:29",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "3.0.3",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-apktool-v3.0.3.mcext",
+            "archive_sha256": "daad44cf5a5be7bd1a35e4717c9536b2925f738d16ea28e11a3dafd34ca370e6",
+            "download_size": 161082709
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.toolchain.clang",
+        "name": "Clang/LLVM",
+        "version": "21.1.8.1",
+        "publisher": "MobiCode / LLVM Project",
+        "description": "提供 Clang、LLVM、LLD、Android sysroot 与 libc++，用于 C/C++ 原生编译。",
+        "category": "TOOLCHAIN",
+        "download_size": 298743164,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-clang-v21.1.8.1.mcext",
+        "archive_sha256": "7ec554ac5c7457db95dc8122329d73e7e3a47e2040bd7c48ce97e10a67d25855",
+        "minimum_app_version": 28,
+        "repository_url": "https://llvm.org/",
+        "license_name": "Apache-2.0 WITH LLVM-exception and bundled third-party notices",
+        "updated_at": "2026-08-28 08:08:29",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "21.1.8.1",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-clang-v21.1.8.1.mcext",
+            "archive_sha256": "7ec554ac5c7457db95dc8122329d73e7e3a47e2040bd7c48ce97e10a67d25855",
+            "download_size": 298743164
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.tool.ripgrep",
+        "name": "rg",
+        "version": "14.1.1",
+        "publisher": "MobiCode / BurntSushi",
+        "description": "提供高速递归文本检索，用于项目搜索、代码定位与 AI 上下文收集。",
+        "category": "TOOLCHAIN",
+        "download_size": 2274239,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-ripgrep-v14.1.1.mcext",
+        "archive_sha256": "08f0089ce4bc1e58253401178b16f61fd5e9d2575b4b0a3ba71c8febac0c68f1",
+        "minimum_app_version": 28,
+        "repository_url": "https://github.com/BurntSushi/ripgrep",
+        "license_name": "MIT and Unlicense",
+        "updated_at": "2026-08-28 07:23:29",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "14.1.1",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-ripgrep-v14.1.1.mcext",
+            "archive_sha256": "08f0089ce4bc1e58253401178b16f61fd5e9d2575b4b0a3ba71c8febac0c68f1",
+            "download_size": 2274239
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.tool.sqlite",
+        "name": "SQLite",
+        "version": "3.53.4",
+        "publisher": "MobiCode / SQLite",
+        "description": "提供 SQLite CLI，用于创建、查询、导入导出和维护项目数据库。",
+        "category": "TOOLCHAIN",
+        "download_size": 8609179,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-sqlite-v3.53.4.mcext",
+        "archive_sha256": "f75a393d04310265330500fdf16c7759d5ad7be22dcc0ce2f072a54684e2479f",
+        "minimum_app_version": 28,
+        "repository_url": "https://sqlite.org/",
+        "license_name": "Public Domain",
+        "updated_at": "2026-08-28 07:23:29",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "3.53.4",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-sqlite-v3.53.4.mcext",
+            "archive_sha256": "f75a393d04310265330500fdf16c7759d5ad7be22dcc0ce2f072a54684e2479f",
+            "download_size": 8609179
+          }
+        ]
+      },
+      {
+        "extension_id": "mobicode.tool.so-reverse",
+        "name": "SO 逆向分析",
+        "version": "1.0.0",
+        "publisher": "MobiCode",
+        "description": "为 AI 提供 Android .so 静态分析能力：ELF 结构、符号、字符串、AArch64 反汇编、交叉引用、重定位与熵值分析。",
+        "category": "TOOLCHAIN",
+        "download_size": 33608,
+        "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-so-reverse-v1.0.0.mcext",
+        "archive_sha256": "4c0688dd03a6527edd6e44967b8bc7654c0a5292cb9ed4210793a6ab8d745585",
+        "minimum_app_version": 19,
+        "repository_url": "https://github.com/Putongren0/MobiCode-Extensions",
+        "license_name": "MIT",
+        "updated_at": "2026-10-28 12:19:43",
+        "languages": [],
+        "project_templates": [],
+        "format": "mcext",
+        "depends": [],
+        "versions": [
+          {
+            "version": "1.0.0",
+            "download_url": "https://github.com/dormantxxy/rikkahub-extensions/releases/download/mobicode-mirror/MobiCode-so-reverse-v1.0.0.mcext",
+            "archive_sha256": "4c0688dd03a6527edd6e44967b8bc7654c0a5292cb9ed4210793a6ab8d745585",
+            "download_size": 33608
+          }
+        ]
+      }
+    ]
+  }
+}
