@@ -302,6 +302,7 @@ private fun MessagePartsBlock(
     val hapticFeedback = LocalHapticFeedback.current
     val settings = LocalSettings.current
     val powerSavingMode = LocalPowerSavingMode.current
+    val partsState by rememberUpdatedState(parts)
 
     val handleClickCitation: (String) -> Unit = remember {
         handler@{ citationId ->
@@ -324,7 +325,6 @@ private fun MessagePartsBlock(
         }
     }
     if (!powerSavingMode && loading && settings.displaySetting.enableMessageGenerationHapticEffect) {
-        val partsState by rememberUpdatedState(parts)
         LaunchedEffect(hapticFeedback) {
             snapshotFlow { partsState }
                 .debounce(50.milliseconds)
